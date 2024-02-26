@@ -1,0 +1,13 @@
+[package]
+name = "keeper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+leptos = { version = "0.6.5", features = ["csr", "nightly"] }
+uuid = { version = "1.7.0", features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]}

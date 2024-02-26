@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keeper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    animation: {
+                    'slide-in': 'slide-in .2s ease-in'
+                },
+                    keyframes: {
+                        'slide-in': {
+                            '0%': {transform: 'translateY(100%)'},
+                            '50%': {transform: 'translateY(40%)'},
+                            '100%': {transform: 'translateY(0%)'}
+                        }
+                    },
+                },
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
